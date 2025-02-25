@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/background_image__1_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.container {
+  width: 90vw;
+  height: 95%;
+  background-color: rgba(0, 0, 0, 0.355);
+  margin: auto;
+  padding: 30px;
+}
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-family: "Bowlby One SC", serif;
+}
+
+#flix {
+  color: rgb(218, 2, 2);
+}
+
+header h3 {
+  font-family: "Sorts Mill Goudy", serif;
+  font-style: italic;
+  color: white;
+}
+
+form {
+
+  width: 35vw;
+  margin: 10px auto auto auto;
+  background-color: rgba(0, 0, 0, 0.74);
+  /* height: 50vh; */
+  color: white;
+  padding: 15px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#name,
+#age,
+#email,
+#content,
+#feedback {
+  width: 100%;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Yukarıdan biraz boşluk bırakmak için */
+}
+.submit input {
+  background-color: red;
+  width: 10vw;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+textarea{
+    height: 10vh;
+}
+
